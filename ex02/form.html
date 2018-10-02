@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <style>
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <form>
+    <p>Firstname : <input type="text" id='firstname'></p>
+    <p>Name : <input type="text" id='name'></p>
+    <p>Age : <input type="number" id='age'></p>
+    <p>Phone : <input type="tel" id='phone'></p>
+    <p>Email : <input type="email" id='email'></p>
+    <p>Student at 42 ? : <input type="checkbox" id='student'></p>
+    <p>Gender : <input type="radio" name="Gender" id="gender_male" value="Male" checked> Male <input type="radio" name="Gender" id="gender_female" value="Female"> Female <input type="radio" name="Gender" id="gender_other" value="Other"> Other</p>
+    <p><input type="submit" onclick="displayFormContents();" value="Let's go!"></p>
+  </form>
+</body>
+</html>
