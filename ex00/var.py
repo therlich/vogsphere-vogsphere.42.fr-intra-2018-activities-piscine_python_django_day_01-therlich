@@ -12,5 +12,5 @@ def my_var():
 	for var in variables:
 		print ("{} est de type {}".format(var, type(var)))
 
-if __name__ == '__main__':
+if __name__=='__main__':
 	my_var()
